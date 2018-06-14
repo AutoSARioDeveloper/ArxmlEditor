@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Popcornsar ARXML Editor
+Bundle-SymbolicName: popcornsar.arxmleditor;singleton:=true
+Bundle-Version: 1.1.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.wst.validation,
+ org.eclipse.wst.sse.ui,
+ org.eclipse.jface.text;bundle-version="3.11.2",
+ org.eclipse.core.resources;bundle-version="3.11.1",
+ system.bundle,
+ org.eclipse.wst.standard.schemas;bundle-version="1.0.700",
+ org.eclipse.emf.ecore;bundle-version="2.12.0",
+ org.eclipse.core.runtime;bundle-version="3.12.0",
+ org.eclipse.wst.sse.core;bundle-version="1.1.1000",
+ org.eclipse.wst.xml.core;bundle-version="1.1.1000",
+ org.eclipse.jface,
+ org.eclipse.ui;bundle-version="3.109.0"
+Import-Package: org.eclipse.core.runtime
+Export-Package: popcornsar.arxmleditor.editor
+Automatic-Module-Name: io.autosar.xml
